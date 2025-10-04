@@ -1,6 +1,7 @@
 {
   "name": "volunteerconnect",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +13,7 @@
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
     "vite": "^4.0.0"
   }
 }
